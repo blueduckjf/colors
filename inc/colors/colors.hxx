@@ -74,6 +74,10 @@ namespace Colors
             Fix16 s;
             Fix16 v;
 
+            inline HSV(Fix16 hue, Fix16 saturation, Fix16 value)
+                : h(hue), s(saturation), v(value)
+            { } 
+
             HSV(const HSV&) = default;
             HSV(HSV&&) = default;
             HSV(const RGB& rgb);

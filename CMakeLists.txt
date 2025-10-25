@@ -20,7 +20,6 @@ set(COLORS_INCLUDE_DIRS
 
 add_subdirectory(${COLORS_FIXMATH_DIR})
 target_compile_definitions(libfixmath PRIVATE
-    FIXMATH_NO_64BIT
     FIXMATH_NO_CACHE
     FIXMATH_OPTIMIZE_8BIT
     FIXMATH_NO_OVERFLOW
